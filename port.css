@@ -582,6 +582,37 @@ body{
 
 
 /* responsive */
+
+/* Add media query for about */
+@media screen and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .about-col-1,
+  .about-col-2 {
+    flex: auto;
+    padding: 10px;
+  }
+}
+
+/* Add media query for nav */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 @media (max-width: 768px) {
   /* Adjust styles for smaller screens here */
   .header {
